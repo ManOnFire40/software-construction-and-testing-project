@@ -1,0 +1,16 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+https://petstore.octoperf.com/actions/Catalog.action,1000,179,91,333,686,1290,69,2604,0.000%,.94385,5.00,0.57
+load webpage,1000,179,91,333,686,1290,69,2604,0.000%,.94385,5.00,0.57
+https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=DOGS,1000,160,90,245,333,791,70,8341,0.000%,.94102,3.65,0.65
+choose animal type,1000,160,90,245,333,791,70,8341,0.000%,.93968,3.65,0.65
+https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=K9-RT-02,1000,192,95,281,411,1042,72,9978,0.000%,.93731,4.14,0.65
+choose animal name,1000,192,95,281,411,1042,72,9978,0.000%,.92973,4.11,0.64
+https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-24,1000,202,102,320,496,757,71,6455,0.000%,.93356,4.05,0.65
+add animal to cart,1000,202,102,320,496,757,71,6455,0.000%,.92529,4.02,0.64
+https://petstore.octoperf.com/actions/Order.action?newOrderForm=,1000,170,95,282,383,819,71,5397,0.000%,.93645,3.64,0.63
+proceed to checkout,1000,170,95,282,383,819,71,5397,0.000%,.92572,3.60,0.62
+https://petstore.octoperf.com/actions/Order.action,1000,261,222,455,615,1044,73,9383,0.000%,.92980,3.88,1.20
+continue to checkout,1000,261,222,455,615,1044,73,9383,0.000%,.91152,3.80,1.17
+https://petstore.octoperf.com/actions/Order.action?newOrder=&confirmed=true,1000,370,261,655,843,1266,145,9762,100.000%,.92623,14.22,0.63
+confirm purchase,1000,370,261,655,843,1266,145,9762,100.000%,.90894,13.95,0.62
+TOTAL,14000,219,112,371,585,1175,69,9978,14.286%,12.12401,71.63,9.22
